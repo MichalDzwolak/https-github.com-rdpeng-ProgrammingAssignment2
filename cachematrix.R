@@ -35,7 +35,8 @@ makeCacheMatrix <- function(x=matrix()){
 
 ## Write a short comment describing this function
 
-This function uses functions from a list created before and creates inverse of matrix. Before tests if inv if not null.  
+##This function uses functions from a list created before and creates inverse of matrix. 
+##Before function tests if input of inv if not null.  
 
 cacheSolve <- function(x, ...){
   inv <- x$getInverse()
